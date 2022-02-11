@@ -9,6 +9,14 @@ header{
     text-align: center;
     background-color: #ba181b;
 }
+
+h1{
+    font-size: 25px;
+}
+h2{
+    padding: 20px;
+   font-size: 30px;
+}
 .image{
     border-radius: 15px;
 
@@ -21,7 +29,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    flex-grow: 1;
     background-color: #ba181b;
     align-items: stretch;
     border-radius: 15px;
@@ -29,8 +36,8 @@ body{
 
 .name{
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
+    padding: 20px;
 }
 .text-1{
     display: flex;
@@ -39,15 +46,16 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 500px;
+    padding-right: 400px;
 }
 
 ol{
     display: flex;
     flex-direction: column;
-    background-color: #0b090a;
     border-radius: 5px;
     margin-top: 20px;
+    font-size: 20px;
+    justify-content: space-between;
 }
 
 section{
